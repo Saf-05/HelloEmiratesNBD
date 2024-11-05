@@ -4,6 +4,8 @@ pipeline {
     environment {
         DOCKER_HUB_REPO = 'helloemiratesnbd'
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials-id'  // Replace with your actual Jenkins credentials ID
+        GIT_REPO_URL = 'https://github.com/username/HelloEmiratesNBD.git'  // Replace with your repo URL
+        GIT_BRANCH = 'main'  // Specify the branch to clone
     }
 
     stages {
